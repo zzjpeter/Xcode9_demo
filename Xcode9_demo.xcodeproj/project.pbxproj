@@ -15,6 +15,7 @@
 		47533DB81F7BA5E900345EA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47533DB71F7BA5E900345EA6 /* main.m */; };
 		47533DC21F7BA5E900345EA6 /* Xcode9_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47533DC11F7BA5E900345EA6 /* Xcode9_demoTests.m */; };
 		47533DCD1F7BA5E900345EA6 /* Xcode9_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47533DCC1F7BA5E900345EA6 /* Xcode9_demoUITests.m */; };
+		47533DDC1F7BA65C00345EA6 /* Z_FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 47533DDB1F7BA65C00345EA6 /* Z_FirstVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		47533DC81F7BA5E900345EA6 /* Xcode9_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Xcode9_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47533DCC1F7BA5E900345EA6 /* Xcode9_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xcode9_demoUITests.m; sourceTree = "<group>"; };
 		47533DCE1F7BA5E900345EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47533DDA1F7BA65C00345EA6 /* Z_FirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Z_FirstVC.h; sourceTree = "<group>"; };
+		47533DDB1F7BA65C00345EA6 /* Z_FirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Z_FirstVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				47533DA91F7BA5E900345EA6 /* AppDelegate.m */,
 				47533DAB1F7BA5E900345EA6 /* ViewController.h */,
 				47533DAC1F7BA5E900345EA6 /* ViewController.m */,
+				47533DDA1F7BA65C00345EA6 /* Z_FirstVC.h */,
+				47533DDB1F7BA65C00345EA6 /* Z_FirstVC.m */,
 				47533DAE1F7BA5E900345EA6 /* Main.storyboard */,
 				47533DB11F7BA5E900345EA6 /* Assets.xcassets */,
 				47533DB31F7BA5E900345EA6 /* LaunchScreen.storyboard */,
@@ -194,6 +199,7 @@
 		47533D9D1F7BA5E900345EA6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Z_;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = zhuzhijia;
 				TargetAttributes = {
@@ -265,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47533DDC1F7BA65C00345EA6 /* Z_FirstVC.m in Sources */,
 				47533DAD1F7BA5E900345EA6 /* ViewController.m in Sources */,
 				47533DB81F7BA5E900345EA6 /* main.m in Sources */,
 				47533DAA1F7BA5E900345EA6 /* AppDelegate.m in Sources */,
